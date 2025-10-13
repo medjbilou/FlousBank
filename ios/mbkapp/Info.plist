@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- ... other keys ... -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow $(PRODUCT_NAME) to access your location to show nearby branches and ATMs.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Allow $(PRODUCT_NAME) to access your location to show nearby branches and ATMs.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Allow $(PRODUCT_NAME) to access your location to show nearby branches and ATMs.</string>
+
+    <!-- Add Mapbox Access Token -->
+    <key>MGLMapboxAccessToken</key>
+    <string>pk.eyJ1IjoibWl6dWNoaSIsImEiOiJjbTk3cGI5enIwYTdmMmlzNnZ5aW1yZ3FrIn0.cQUew-J5hXBJsQK7ScfF4Q</string>
+
+	<!-- ... other keys like UIRequiresFullScreen, UILaunchStoryboardName, etc. ... -->
+</dict>
+</plist> 
